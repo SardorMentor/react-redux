@@ -1,0 +1,55 @@
+.movie {
+  width: 430px;
+  height: 230px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.movie__bg img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.movie__footer {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: rgba(60, 56, 64, 0.89);
+  width: 100%;
+  padding: 17px 20px 20px;
+}
+
+.movie__footer-action {
+  margin-right: 15px;
+}
+
+.movie__footer-title {
+  font-family: "Sarabun", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  color: #fff;
+}
+
+.movie__footer-release-date {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.movie__footer-duration {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 5px 13px;
+  background: #885ffb;
+  border-radius: 20px;
+  margin-left: auto;
+  color: #fff;
+}

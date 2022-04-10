@@ -1,0 +1,38 @@
+.movies {
+  flex: 100;
+}
+
+.movies__container {
+  padding: 54px 55px 46px;
+}
+
+.movies__banner {
+  height: 187px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 20px;
+  margin-bottom: 48px;
+}
+
+.movies__banner img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.movies__title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 23px;
+  color: #fff;
+  margin-bottom: 49px;
+}
+
+.movies__items {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-between;
+  column-gap: 30px;
+  row-gap: 54px;
+}

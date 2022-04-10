@@ -1,0 +1,21 @@
+.comment:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.comment__title {
+  font-family: 'Prompt', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.comment__text {
+  font-family: 'Prompt', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  line-height: 16px;
+  color: #fff;
+}

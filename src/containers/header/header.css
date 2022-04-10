@@ -1,0 +1,43 @@
+.header {
+  border-bottom: 1px solid #ccc;
+  min-height: 115px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  padding: 45px 98px;
+}
+
+.header__logo {
+  margin-right: 189px;
+}
+
+.header__nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.header__nav a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #ccc;
+}
+
+.header__nav li:not(:last-child) {
+  margin-right: 42px;
+}
+
+.header__actions {
+  display: flex;
+  margin-left: auto;
+}
+
+.header__action:hover {
+  cursor: pointer;
+}
+
+.header__action:not(:last-child) {
+  margin-right: 45px;
+}
